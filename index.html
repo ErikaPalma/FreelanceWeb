@@ -103,39 +103,41 @@
          Vero rem eveniet commodi est doloremque.</p>
         </section>
     </div>
-    </main>
-
+    
     <section>
         <h2>Contacto</h2>
 
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Contáctame rellenando todos los campos</legend>
-                <div>
+
+            <div class="contenedor-campos">
+
+                <div class="campo">
                     <label for="nombre">Nombre</label>
-                    <input type="text" placeholder="Nombre">
+                    <input class="input-text" type="text" placeholder="Nombre">
                 </div>
                
-                <div>
+                <div class="campo">
                     <label for="telefono">Teléfono</label>
-                    <input type="tel" placeholder="Teléfono">
+                    <input class="input-text" type="tel" placeholder="Teléfono">
                 </div>
 
-              <div>
+              <div class="campo">
                 <label for="correo">Email</label>
-                <input type="email" placeholder="Tu email">
+                <input class="input-text" type="email" placeholder="Tu email">
               </div>
 
-              <div>
+              <div class="campo">
                 <label for="mensaje">Mensaje</label>
-                <textarea></textarea>
+                <textarea class="input-text"  rows="8"></textarea>
               </div>
-               
-                <input type="submit" value="Enviar">
+            </div>  <!--Fin contenedor-campos-->
+                <input class="input-text boton" type="submit" value="Enviar">
             </fieldset>
         </form>
     </section>
-
+</main>
     <footer>
         <p>Todos los derechos reservados</p>
     </footer>
